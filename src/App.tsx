@@ -964,8 +964,8 @@ export default function App() {
                                 </span>
                               </div>
 
-                              {/* Product Image Container with 10% interior padding */}
-                              <div className="relative aspect-[3/4] w-full overflow-hidden bg-background/80 p-[8%] rounded-sm flex items-center justify-center">
+                              {/* Product Image Container */}
+                              <div className="relative aspect-[3/4] w-full overflow-hidden bg-surface/30 flex items-center justify-center">
                                 <button
                                   type="button"
                                   onClick={() => openProductDetail(print.id)}
@@ -977,7 +977,7 @@ export default function App() {
                                     fallbackTitle={print.title}
                                     fallbackMeta={`${print.catalogNumber} · ${print.year}`}
                                     aspectClass="h-full w-full"
-                                    className="h-full w-full object-contain transition-transform duration-500 ease-out group-hover:scale-105"
+                                    className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                                   />
                                 </button>
 

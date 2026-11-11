@@ -1,9 +1,16 @@
 import heroObservatoryImg from '../assets/images/space_hero_observatory_1794376910232.jpg';
-import printWebbDeepFieldImg from '../assets/images/print_webb_deep_field_1794376908908.jpg';
-import printLunarCartographyImg from '../assets/images/print_lunar_cartography_1794376911795.jpg';
-import printPlanetaryOrbitsImg from '../assets/images/print_planetary_orbits_orrery_1794376912560.jpg';
-import printPulsarWaveformsImg from '../assets/images/print_pulsar_waveforms_1794376913813.jpg';
-import printCelestialHemisphereImg from '../assets/images/print_celestial_hemisphere_1794375163956.jpg';
+import printJwstDeepField from '../assets/images/framed_jwst_deep_field_1794387514770.jpg';
+import printNasmythLunar from '../assets/images/framed_nasmyth_lunar_relief_1794387514631.jpg';
+import printKeplerOrrery from '../assets/images/framed_kepler_orrery_1794387515953.jpg';
+import printPulsarWaves from '../assets/images/framed_pulsar_waves_1794387516664.jpg';
+import printCelestialPlanisphere from '../assets/images/framed_celestial_planisphere_1794387517435.jpg';
+import printSaturnRings from '../assets/images/framed_saturn_rings_1794387538268.jpg';
+import printCarinaCliffs from '../assets/images/framed_carina_nebula_1794387520147.jpg';
+import printApolloHadley from '../assets/images/framed_apollo_hadley_1794387518273.jpg';
+import printSgraBlackhole from '../assets/images/framed_sgra_blackhole_1794387539545.jpg';
+import printPleiadesCluster from '../assets/images/framed_pleiades_cluster_1794387539700.jpg';
+import printVoyagerPulsar from '../assets/images/framed_voyager_pulsar_1794387518304.jpg';
+import printMarsRelief from '../assets/images/framed_mars_relief_1794387540246.jpg';
 
 export const HERO_IMAGE = heroObservatoryImg;
 
@@ -170,9 +177,9 @@ export const CATALOGUE: ArchivalPrint[] = [
     originalMedium: 'Infrared composite & 12-channel encapsulated mineral pigment',
     basePriceCents: 8800,
     featured: true,
-    image: printWebbDeepFieldImg,
+    image: printJwstDeepField,
     imageAlt:
-      'Overhead pack shot of SMACS 0723 Webb Deep Field fine-art print on 340 gsm obsidian cotton rag resting on dark slate',
+      'Direct museum scan of SMACS 0723 Webb Deep Field fine-art print showing thousands of distant galaxies and gravitational lensing arcs',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: 'RA 07h 23m 19.5s · DEC -73° 27\' 15"',
     inkSwatches: [
@@ -195,9 +202,9 @@ export const CATALOGUE: ArchivalPrint[] = [
     originalMedium: 'Photogravure from plaster relief models & copper burin',
     basePriceCents: 7800,
     featured: true,
-    image: printLunarCartographyImg,
+    image: printNasmythLunar,
     imageAlt:
-      'Overhead pack shot of 1874 lunar cartography full disk engraving print on heavy cotton rag paper beside drafting tools',
+      'Direct museum scan of 1874 James Nasmyth lunar cartography print with Copernicus crater relief shadows and Latin typography',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: '0.6740° N · 23.4720° E (Apollo 11 Datum)',
     inkSwatches: [
@@ -220,9 +227,9 @@ export const CATALOGUE: ArchivalPrint[] = [
     originalMedium: 'Copperplate intaglio, burnished brass & Prussian ink wash',
     basePriceCents: 8200,
     featured: true,
-    image: printPlanetaryOrbitsImg,
+    image: printKeplerOrrery,
     imageAlt:
-      'Overhead pack shot of 1609 Keplerian planetary orbits and elliptical geometry print on heavy archival paper',
+      'Direct museum scan of 1609 Johannes Kepler Astronomia Nova planetary orbit chart on laid paper with concentric ellipses',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: 'Heliocentric Ecliptic J2000.0 Plane',
     inkSwatches: [
@@ -245,9 +252,9 @@ export const CATALOGUE: ArchivalPrint[] = [
     originalMedium: 'Plotted radio receiver pen-oscilloscope chart on black rag',
     basePriceCents: 7400,
     featured: true,
-    image: printPulsarWaveformsImg,
+    image: printPulsarWaves,
     imageAlt:
-      'Overhead pack shot of CP 1919 stacked pulsar radio frequency waveform lines on deep obsidian black paper',
+      'Direct museum scan of CP 1919 stacked pulsar radio frequency waves on deep obsidian velvet black paper',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: 'RA 19h 21m 44.8s · DEC +21° 53\' 02"',
     inkSwatches: [
@@ -270,9 +277,9 @@ export const CATALOGUE: ArchivalPrint[] = [
     originalMedium: 'Copperplate intaglio with Prussian cyan ground',
     basePriceCents: 7200,
     featured: true,
-    image: printCelestialHemisphereImg,
+    image: printCelestialPlanisphere,
     imageAlt:
-      'Overhead pack shot of Northern Celestial Hemisphere star chart printed in Prussian blue and sepia line on cotton rag paper',
+      'Direct museum scan of 1822 antique celestial star chart hemisphere in Prussian blue and sepia line on cotton rag paper',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: 'Boreal Polar Colure 90° N',
     inkSwatches: [
@@ -294,8 +301,10 @@ export const CATALOGUE: ArchivalPrint[] = [
     originArchive: 'Cambridge Adams Prize Mathematical Monograph',
     originalMedium: 'Lithographic engraving on slate paper',
     basePriceCents: 7600,
-    featured: false,
-    imageAlt: 'Saturnian Ring System Maxwell Stability Proof 1859 print',
+    featured: true,
+    image: printSaturnRings,
+    imageAlt:
+      'Direct museum scan of 1859 Saturn and ring system architectural monograph print with Cassini division diagrams',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: 'Ring Inclination 26.73°',
     inkSwatches: [
@@ -315,8 +324,10 @@ export const CATALOGUE: ArchivalPrint[] = [
     originArchive: 'Hubble & Webb Combined Infrared Archive',
     originalMedium: '12-channel multispectral narrow-band pigment',
     basePriceCents: 8600,
-    featured: false,
-    imageAlt: 'Carina Nebula Cosmic Cliffs infrared spectrogram print',
+    featured: true,
+    image: printCarinaCliffs,
+    imageAlt:
+      'Direct museum scan of Carina Nebula Cosmic Cliffs NGC 3324 fine-art print with glowing amber dust peaks and cyan stars',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: 'RA 10h 37m 23s · DEC -58° 38\' 03"',
     inkSwatches: [
@@ -337,8 +348,10 @@ export const CATALOGUE: ArchivalPrint[] = [
     originArchive: 'Defense Mapping Agency Topographic Center for NASA',
     originalMedium: 'Offset topographic lithograph with contour relief',
     basePriceCents: 7400,
-    featured: false,
-    imageAlt: 'Hadley Rille Lunar Traverse Map 1971 print',
+    featured: true,
+    image: printApolloHadley,
+    imageAlt:
+      'Direct museum scan of official 1971 NASA Apollo 15 Hadley Rille lunar topographic contour survey map',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: '26.1322° N · 3.6339° E (Hadley Datum)',
     inkSwatches: [
@@ -359,8 +372,10 @@ export const CATALOGUE: ArchivalPrint[] = [
     originArchive: 'Event Horizon Telescope Very Long Baseline Array',
     originalMedium: 'Interferometric radio millimeter synthesis on black rag',
     basePriceCents: 8400,
-    featured: false,
-    imageAlt: 'Sagittarius A* Event Horizon Telescope print',
+    featured: true,
+    image: printSgraBlackhole,
+    imageAlt:
+      'Direct museum scan of Event Horizon Telescope Sagittarius A* black hole photon accretion ring print',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: 'RA 17h 45m 40.04s · DEC -29° 00\' 28.1"',
     inkSwatches: [
@@ -381,8 +396,10 @@ export const CATALOGUE: ArchivalPrint[] = [
     originArchive: 'Bayer Uranometria & Hven Island Observations',
     originalMedium: 'Alexander Mair burin copperplate engraving',
     basePriceCents: 7000,
-    featured: false,
-    imageAlt: 'Pleiades Star Cluster Bayer Uranometria 1603 print',
+    featured: true,
+    image: printPleiadesCluster,
+    imageAlt:
+      'Direct museum scan of 1603 Johann Bayer Uranometria star atlas chart of Pleiades Seven Sisters open cluster',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: 'RA 03h 47m 24s · DEC +24° 07\' 00" (M45)',
     inkSwatches: [
@@ -402,8 +419,10 @@ export const CATALOGUE: ArchivalPrint[] = [
     originArchive: 'NASA Jet Propulsion Laboratory & Carl Sagan Archive',
     originalMedium: 'Electro-etched gold-anodized copperplate drafting',
     basePriceCents: 8000,
-    featured: false,
-    imageAlt: 'Voyager Golden Record Pulsar Coordinate Map print',
+    featured: true,
+    image: printVoyagerPulsar,
+    imageAlt:
+      'Direct museum scan of 1977 NASA Voyager Golden Record interstellar pulsar coordinate map with gold metallic line on black rag',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: 'Sol Barycentric Baseline to 14 Pulsars',
     inkSwatches: [
@@ -423,8 +442,10 @@ export const CATALOGUE: ArchivalPrint[] = [
     originArchive: 'Viking Orbiter 1 Topographic Shaded Relief Series',
     originalMedium: 'Airbrush shaded relief & orthophoto mosaic',
     basePriceCents: 7600,
-    featured: false,
-    imageAlt: 'Valles Marineris Grand Canyon of Mars Relief Survey print',
+    featured: true,
+    image: printMarsRelief,
+    imageAlt:
+      'Direct museum scan of 1976 NASA Viking Orbiter Valles Marineris Mars topographic shaded relief map in rust ochre',
     aspectRatioLabel: '3:4 vertical sheet',
     coordinates: '13.9° S · 59.2° W (Mars Datum)',
     inkSwatches: [
