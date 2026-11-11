@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  /* Deep Space Observatory & Horology Atelier Palette: Obsidian Void, Starlight Ivory, Titanium Hairlines, Celestial Cyan & Burnished Orrery Gold */
+  --color-background: oklch(0.108 0.016 255);
+  --color-surface: oklch(0.148 0.020 255);
+  --color-foreground: oklch(0.962 0.006 240);
+  --color-muted: oklch(0.62 0.022 245);
+  --color-border: oklch(0.24 0.024 250);
+  --color-primary: oklch(0.74 0.135 218);
+  --color-primary-foreground: oklch(0.10 0.016 255);
+  --color-accent: oklch(0.78 0.145 76);
+  --color-danger: oklch(0.62 0.19 25);
+
+  --font-sans: "Montserrat", "Instrument Sans", sans-serif;
+  --font-display: "Montserrat", sans-serif;
+  --font-serif: "Newsreader", serif;
+  --font-mono: "Space Mono", monospace;
+
+  /* Typographic scale */
+  --text-display: clamp(2rem, 1.5rem + 2.5vw, 3.5rem);
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.01em;
+  --text-display--font-weight: 600;
+
+  --text-title: clamp(1.35rem, 1.15rem + 1vw, 2rem);
+  --text-title--line-height: 1.2;
+  --text-title--letter-spacing: -0.01em;
+  --text-title--font-weight: 500;
+
+  --text-heading: 1.05rem;
+  --text-heading--line-height: 1.35;
+  --text-heading--font-weight: 500;
+
+  --text-body: 0.95rem;
+  --text-body--line-height: 1.6;
+
+  --text-label: 0.85rem;
+  --text-label--line-height: 1.4;
+
+  --text-caption: 0.72rem;
+  --text-caption--line-height: 1.4;
+
+  --radius-card: 0.125rem;
+  --radius-control: 30px;
+  --shadow-surface: 0 0 transparent;
+  --shadow-float: 0 24px 50px -16px rgba(0, 0, 0, 0.65);
+  --shadow-stellar: 0 0 25px -4px rgba(56, 189, 248, 0.18);
+}
+
+html {
+  font-synthesis-weight: none;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/* Subtle glowing cosmic scanline animation */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(1000%); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.85; }
+}
+
+@keyframes orbitSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-scanline {
+  animation: scanline 8s linear infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+.animate-orbit-slow {
+  animation: orbitSpin 90s linear infinite;
+}
+
+.animate-orbit-medium {
+  animation: orbitSpin 45s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *:not(.animate-spin):not(.animate-pulse),
+  *:not(.animate-spin):not(.animate-pulse)::before,
+  *:not(.animate-spin):not(.animate-pulse)::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "FOUNDRY SPACE — Astronomical & Deep-Space Archival Editions",
+  "description": "Curated made-to-order deep-space cartography, Webb infrared spectrograms, lunar topography, and Keplerian orbital mechanics printed on archival cotton rag and obsidian velvet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
