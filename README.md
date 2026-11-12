@@ -2,7 +2,7 @@
 
 **A design study: an online store for astronomy prints.**
 
-### ▶ [Live demo](https://arna0.github.io/design-test/): opens in the browser, nothing to install
+### ▶ [Live demo](https://arna0.github.io/foundry-space/): opens in the browser, nothing to install
 
 Deep-space photographs, Webb infrared images, lunar maps and orbital diagrams sold as made-to-order archival prints. I built it to practise product-page design, animation and visual storytelling on a topic I like.
 
