@@ -106,7 +106,7 @@ export const ArchivalImage = ({
   if (!src || failed) {
     return (
       <div
-        className={`flex flex-col justify-between bg-gradient-to-br from-background via-surface to-background p-6 text-foreground ${aspectClass} ${className}`}
+        className={`flex flex-col justify-between bg-background p-6 text-foreground ${aspectClass} ${className}`}
       >
         <span className="text-caption text-muted">{fallbackMeta ?? 'Archival plate'}</span>
         <p className="font-display text-heading text-foreground">{fallbackTitle}</p>
